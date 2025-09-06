@@ -1,14 +1,20 @@
+public class Carro {
+    private String marca;
+    private String modelo;
+    private int ano;
+    private String cor;
+    private String placa;
+    private float quilometragem;
+    private String tipoDeCombustivel;
+    private boolean possuiArCondicionado;
+    private boolean possuiCambioAutomatico;
 
-public class AnimalDeEstimacao {
-	private String especie;
-	private String raca;
-	private String nome;
-	private int idade;
-	private String sexo;
-	private String porte;
-	private String castrado;
-	private boolean vacinaEmDia;
-	private boolean nessecidadeEspecial;
-	private String personalidade;
-	
+    void buzinar() {
+        System.out.println("BI-BI!!");
+    }
+
+    public static void main(String args[]) {
+        Carro teste = new Carro();
+        teste.buzinar();
+    }
 }
